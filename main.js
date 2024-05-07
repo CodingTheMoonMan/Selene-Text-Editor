@@ -20,7 +20,7 @@ function createNumLine() {
       numLineDiv.appendChild(numLine);
 }
 
-codeLines.addEventListener("keydown", function(event) {
+window.addEventListener("keydown", function(event) {
       if (event.code == "Enter"){
             createNumLine();
       }

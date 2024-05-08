@@ -15,6 +15,7 @@ body{
       outline: none;
       margin: 0.2rem;
       white-space: prewrap;
+      -moz-user-select: text;
 }
 
 .sideTab{
